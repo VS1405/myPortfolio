@@ -20,21 +20,28 @@ export const Contact = () => {
       [category]: value,
     });
   };
+  // console.log(formDetails);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("http://localhost:5000/contact", {
+    let response = await fetch(`http://localhost:3000/contact`, {
       method: "POST",
       headers: {
-        "Content-Type": "application/json;charset=utf-8",
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify(formDetails),
+      body: JSON.stringify(formDetails)
     });
     setButtonText("Send");
-    let result = await response.json();
+    console.log(response.body);
+    let result;
+    try {
+      result = await response.json();
+    } catch (error) {
+      console.log("Failed to parse JSON response:", error);
+    }
     setFormDetails(formInitialDetails);
-    if (result.code == 200) {
+    if (result === 200) {
       setStatus({ succes: true, message: "Message sent successfully" });
     } else {
       setStatus({
@@ -54,7 +61,11 @@ export const Contact = () => {
           <Col size={12} md={6}>
             <div>
               <h2>Get In Touch</h2>
-              <form onSubmit={handleSubmit}>
+              <form
+                onSubmit={handleSubmit}
+                action="https://gmail.us11.list-manage.com/subscribe/post"
+                method="POST"
+              >
                 <Row>
                   <Col size={12} sm={6} className="px-1">
                     <input
@@ -69,7 +80,7 @@ export const Contact = () => {
                   <Col size={12} sm={6} className="px-1">
                     <input
                       type="text"
-                      value={formDetails.lasttName}
+                      value={formDetails.lastName}
                       placeholder="Last Name"
                       onChange={(e) => onFormUpdate("lastName", e.target.value)}
                     />
