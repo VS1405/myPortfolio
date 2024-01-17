@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import { Github, Instagram, Linkedin } from "react-bootstrap-icons";
+import { Github, Linkedin } from "react-bootstrap-icons";
+import { Link } from "react-bootstrap-icons";
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState("home");
@@ -70,11 +71,11 @@ function NavBar() {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://github.com/VS1405" target="_blank" alt="gitHub" className="icons">
+              <a href="https://github.com/VS1405" alt="gitHub" className="icons">
                 {/* <img src={navIcon1} alt="github" /> */}
                 <Github color="white" />
               </a>
-              <a href="https://www.linkedin.com/in/varsha-mhaske-4b4b971ba/" target="_blank" alt="LinkedIn" className="icons">
+              <a href="https://www.linkedin.com/in/varsha-mhaske-4b4b971ba/" alt="LinkedIn" className="icons">
                 {/* <img src={navIcon1} alt="linkedIn" /> */}
                 <Linkedin color="white" />
                 </a>
@@ -85,7 +86,7 @@ function NavBar() {
                 console.log("connect");
               }}
             >
-              <span>Let's Connect</span>
+              <span><a href="#connect" className="connectLink" >Let's Connect</a></span>
             </button>
           </span>
         </Navbar.Collapse>

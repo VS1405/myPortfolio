@@ -7,9 +7,11 @@ import { Skills } from './component/Skills';
 import { Projects } from './component/Projects';
 import { Contact } from './component/Contact';
 import { Footer } from './component/Footer';
+import { Fragment } from 'react';
 
 function App() {
   return (
+    <Fragment>
     <div className='App'>
       <NavBar />
       <Banner />
@@ -18,6 +20,7 @@ function App() {
       <Contact />
       <Footer />
     </div>
+    </Fragment>
   );
 }
 
