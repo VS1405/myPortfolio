@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Github, Linkedin } from "react-bootstrap-icons";
-import { Link } from "react-bootstrap-icons";
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState("home");
