@@ -86,7 +86,7 @@ const [activeLink, setActiveLink] = useState("home");
                 console.log("connect");
               }}
             >
-              <span><a href="#connect" className="connectLink" >Let's Connect</a></span>
+              <span><Nav.Link href="#connect" className="connectLink" >Let's Connect</Nav.Link></span>
             </button>
           </span>
         </Navbar.Collapse>
