@@ -354,7 +354,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: rgb( 0, 0, 0);
 }
 .project h2 {
 	font-size: 45px;
@@ -476,7 +476,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: white;
 }
 .background-image-right {
-  top: 20%;
+  top: 40%;
   position: absolute;
   bottom: 0;
   width: 35%;
@@ -558,7 +558,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* *********** Footer Css *********** */
  .footer {
-  padding: 0 0 50px 0;
+  padding: 0 0 30px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;

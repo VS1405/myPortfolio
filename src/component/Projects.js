@@ -2,7 +2,9 @@ import { Col, Row, Container, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import calculator from '../assets/img/calculator.png'
 import medicalApp from '../assets/img/medical.png'
-import restaurantApp from '../assets/img/restaurant.png'
+import restaurantApp from '../assets/img/restaurant.png';
+
+import colorSharp2 from '../assets/img/color-sharp2.png'
 
 export const Projects = () => {
   const projects = [
@@ -59,7 +61,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      {/* <img className="bachground-image-right" src={colorSharp2} alt="" /> */}
+      <img className="background-image-right" src={colorSharp2} alt="" />
     </section>
   );
 };
