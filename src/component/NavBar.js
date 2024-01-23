@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Github, Linkedin } from "react-bootstrap-icons";
+import React from 'react'
 
-function NavBar() {
-  const [activeLink, setActiveLink] = useState("home");
+const NavBar = () => {
+const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
