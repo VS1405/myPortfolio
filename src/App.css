@@ -351,6 +351,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* *********** Projects Css *********** */
+
 .project {
   padding: 80px 0;
   position: relative;
@@ -558,6 +559,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* *********** Footer Css *********** */
  .footer {
+  padding: 0 0 50px 0;
+  background-image: url('./assets/img/backgroung-img2.jpg');
   padding: 0 0 30px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
@@ -635,3 +638,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 } 
+.footer-contact-info{
+  padding-top: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: 200px;
+}
+.footer-contact-info p{
+  line-height: 5px;
+
+}
