@@ -7,6 +7,7 @@ import htmlLogo from "../assets/tech/html.png";
 import reduxLogo from "../assets/tech/redux.png";
 import reactLogo from "../assets/tech/reactjs.png";
 import mongodbLogo from "../assets/tech/mongodb.png";
+import tailwind from "../assets/tech/tailwind.png";
 import githubLogo from "../assets/github.png";
 
 export const Skills = () => {
@@ -44,28 +45,32 @@ export const Skills = () => {
                                 <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                            <img src={htmlLogo} alt="JavaScript Logo"/>
+                            <img src={htmlLogo} alt="HTML Logo"/>
                                 <h5>HTML</h5>
                             </div>
                             <div className="item">
-                            <img src={cssLogo} alt="JavaScript Logo"/>
+                            <img src={cssLogo} alt="CSS Logo"/>
                                 <h5> CSS</h5>
                             </div>
                             <div className="item">
-                            <img src={reactLogo} alt="JavaScript Logo"/>
+                            <img src={reactLogo} alt="react Logo"/>
                                 <h5>React.JS</h5>
                             </div>
                             <div className="item">
-                            <img src={reduxLogo} alt="JavaScript Logo"/> 
+                            <img src={reduxLogo} alt="redux Logo"/> 
                                 <h5>Redux</h5>
                             </div>
                             <div className="item">
-                            <img src={mongodbLogo} alt="JavaScript Logo"/> 
+                            <img src={mongodbLogo} alt="mongoDB Logo"/> 
                                 <h5>MongoDB</h5>
                             </div>
                             <div className="item">
-                            <img src={githubLogo} alt="JavaScript Logo"/> 
+                            <img src={githubLogo} alt="github Logo"/> 
                                 <h5>GitHub</h5>
+                            </div>
+                            <div className="item">
+                            <img src={tailwind} alt="tailwind Logo"/> 
+                                <h5>Tailwind</h5>
                             </div>
                         </Carousel>
                     </div>

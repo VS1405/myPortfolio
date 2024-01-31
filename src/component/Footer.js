@@ -16,6 +16,7 @@ export const Footer = () => {
           <Col size={12} sm={6} className="text-start text-sm-end">
             <div className="social-icon" style={{ paddingTop: 20 }}>
               <h5 style={{ textAlign: "start", font: "bold" }}>Follow Us</h5>
+              </div>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon" style={{ paddingTop: 20 }}>
               <a
@@ -35,10 +36,10 @@ export const Footer = () => {
                 <Linkedin color="white" />
               </a>
             </div>
+            </Col>
           </Col>
-          {/* <p></p> */}
         </Row>
       </Container>
     </footer>
-  );
-};
+  )
+}
