@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.38958835.css",
+    "main.js": "/static/js/main.968195d6.js",
+    "static/media/e-commerce.png": "/static/media/e-commerce.edb16585eb3e16da93c3.png",
+    "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/restaurant.png": "/static/media/restaurant.5d7576433b09be3f219b.png",
+    "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/header-img.svg": "/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/calculator.png": "/static/media/calculator.6f2f683b64b62636d9ab.png",
+    "static/media/medical.png": "/static/media/medical.b4e0b9cae75bddebf780.png",
+    "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/backgroung-img2.jpg": "/static/media/backgroung-img2.b0bd7d1d793c40e79ea6.jpg",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/github.png": "/static/media/github.ed1c06d925fff0b57e32.png",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "static/media/threejs.svg": "/static/media/threejs.34d1dab4caddf9c51437e9bafd282582.svg",
+    "main.38958835.css.map": "/static/css/main.38958835.css.map",
+    "main.968195d6.js.map": "/static/js/main.968195d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38958835.css",
+    "static/js/main.968195d6.js"
+  ]
+}
