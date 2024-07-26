@@ -309,18 +309,37 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
-
+@media screen and (max-width: 500px) {
+ .banner{
+  overflow: hidden;
+ }
+  .banner h1{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .banner h1{
+    font-size: 50px;
+  }
+}
 /* *********** Skills Css *********** */
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 .skill-bx {
+  width: 100%;
   background: #151515;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
+  padding: 40px 50px;
   margin-top: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .skill h2 {
 	font-size: 45px;
@@ -332,6 +351,46 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px 0 75px 0;
+}
+
+.grid{
+  width: 100%;
+  height: 100%;
+  padding: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 30px;
+}
+.item img{
+width: 150px;
+height: 100px;
+}
+
+@media screen and ( max-width: 600px) {
+  .skill-bx{
+    padding: 10px 15px;
+  }
+  .grid{
+    gap: 20px;
+    grid-template-columns: auto auto;
+  }
+  .item img{
+    width: 90px;
+    height: 80px;
+    }
+}
+@media  screen and (max-width: 1000px ) {
+  .skill-bx{
+    padding: 20px 30px;
+  }.grid{
+    grid-template-columns: auto auto auto ;
+    gap: 20px;
+  }
+  .item img{
+    width: 90px;
+    height: 80px;
+    }
 }
 .skill-slider {
   width: 80%;
@@ -559,13 +618,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* *********** Footer Css *********** */
  .footer {
+  width: 100%;
   padding: 0 0 50px 0;
   background-image: url('./assets/img/backgroung-img2.jpg');
   padding: 0 0 30px 0;
-  /* background-image: url('./assets/img/footer-bg.png'); */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  color: hsl(204, 94%, 50%);
+}
+.align-items-center{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .newsletter-bx {
   background: #FFFFFF;
@@ -634,7 +700,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #B8B8B8;
+  color: #0c0c0c;
   letter-spacing: 0.5px;
   margin-top: 20px;
 } 

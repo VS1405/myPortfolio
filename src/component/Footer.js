@@ -7,7 +7,7 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} sm={6} className="footer-contact-info">
-            <h5>Contact Me</h5>
+            <h5>Contact Info</h5>
             <p>+91 9028304405</p>
             <p>varshamhaske808@gmail.com</p>
           </Col>

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Github, Linkedin } from "react-bootstrap-icons";
-import React from 'react'
+import React from 'react';
 
 const NavBar = () => {
 const [activeLink, setActiveLink] = useState("home");
@@ -71,11 +71,11 @@ const [activeLink, setActiveLink] = useState("home");
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://github.com/VS1405" alt="gitHub" className="icons">
+              <a href="https://github.com/VS1405" alt="gitHub" className="icons" target="_blank">
                 {/* <img src={navIcon1} alt="github" /> */}
                 <Github color="white" />
               </a>
-              <a href="https://www.linkedin.com/in/varsha-mhaske-4b4b971ba/" alt="LinkedIn" className="icons">
+              <a href="https://www.linkedin.com/in/varsha-mhaske-4b4b971ba/" alt="LinkedIn" className="icons" target="_blank">
                 {/* <img src={navIcon1} alt="linkedIn" /> */}
                 <Linkedin color="white" />
                 </a>

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Nav } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 // import TrackVisibility from 'react-on-screen';
@@ -59,7 +59,7 @@ export const Banner = () => {
 
             <div>
               <span className="tagline">Welcome to my Portfolio</span>
-              <h1>
+              <h1 className="major-heading">
                 {`Hi! I'm Varsha`}{" "}
                 <span
                   className="txt-rotate"
@@ -78,7 +78,7 @@ export const Banner = () => {
                 Let's transform your idea into reality!
               </p>
               <button onClick={() => console.log("connect")}>
-                Let’s Connect <ArrowRightCircle size={25} />
+              <span><Nav.Link href="#connect" className="connectLink" >Let's Connect <ArrowRightCircle size={25} /></Nav.Link></span>
               </button>
             </div>
             {/* </TrackVisibility> */}
